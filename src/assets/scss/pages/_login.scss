@@ -1,0 +1,25 @@
+
+  .login-form{
+    margin-top: 140px;
+    position: relative;
+    .form-login{
+      @include pxRem (width, 500);
+      @include pxRem (border-radius, 10);
+      @include pxRem (padding, 30);
+      text-align: center;
+      margin: 0 auto;
+      border: 2px solid map-get($colors, primary-bg);
+      background-color: map-get($colors, white);
+      box-shadow: 0 4px 0 4px map-get($colors, primary-shadow);
+      .login-title{
+        @include pxRem (margin-bottom, 20);
+        color: map-get($colors, primary-bg);
+      }
+    }
+  }
+  .login-back{
+    position: absolute;
+    top:-80px;
+    left: 80px;
+  }
+  

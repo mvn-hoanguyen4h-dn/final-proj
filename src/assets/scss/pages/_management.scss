@@ -1,0 +1,47 @@
+.manage-modal{
+  height: 800px;
+}
+.ant-table-tbody > tr >.product-img {
+  width: 380px;
+    img{
+      width: 360px;
+      height: auto;
+  }
+}
+.ant-table-thead >tr > th{
+  height: 40px;
+}
+.btn-add{
+  background-color: map-get($colors, primary-bg);
+  color: map-get($colors, white);
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  padding:  4px 22px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  position: relative;
+  right: 0;
+  &:hover{
+    transform: scale(.8);
+  }
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+  background-color: map-get($colors, black);
+}
+.ant-menu-item-selected{
+  color: map-get($colors, white);
+  a{
+    color: map-get($colors, white);
+  }
+}
+.ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+}
+.ant-table-cell > a{
+  &:hover{
+    color: map-get($colors, primary-bg);
+  }
+}
