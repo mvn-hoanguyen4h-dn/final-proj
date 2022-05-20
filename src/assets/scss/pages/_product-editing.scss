@@ -1,0 +1,16 @@
+.edit-form{
+  width: 400px;
+  padding: 16px 0;
+  border: 2px solid map-get($colors, primary-bg);
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 0 4px 0 4px map-get($colors, primary-shadow);
+  .edit-title{
+    @include pxRem (margin-bottom, 20);
+    color: map-get($colors, primary-bg);
+    text-align: center;
+  }
+  .input-edit{
+    border: none;
+  }
+}

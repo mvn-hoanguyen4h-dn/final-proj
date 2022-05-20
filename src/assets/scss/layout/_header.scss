@@ -1,0 +1,19 @@
+.ant-layout-header{
+  @include pxRem(height, 60);
+  background-color: map-get($colors, black);
+  .nav-links-list{
+    display: flex;
+    justify-content: flex-end;
+    .nav-links-item{
+      @include pxRem(font-size, 26);
+      @include pxRem(margin, 0 10);
+      a{
+        color: map-get($colors, white);
+        &:hover{
+          color: map-get($colors, primary-bg);
+        }
+      }
+    }
+  }
+}
+

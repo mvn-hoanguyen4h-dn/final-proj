@@ -1,0 +1,6 @@
+.is-hidden {
+  display: none;
+}
+.active{
+  color: map-get($colors, primary-bg);
+}

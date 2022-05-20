@@ -1,0 +1,35 @@
+.product-view{
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+  .product-img{
+    flex: 1;
+    img{
+      width: 400px;
+      height: 380px;
+      border-radius: 12px;
+    }
+    margin: 0 0 0 80px;
+  }
+  .product-desc{
+    flex:1;
+    margin-left: 40px;
+    h4{
+      font-size: 32px;
+    }
+    p{
+      font-size:20px;
+      margin-top: 16px;
+    }
+    span{
+      font-size: 28px;
+      color: map-get($colors, txt-gray);
+      margin-left: 10px;
+      font-style: italic;
+    }
+    .product-price{
+      font-size: 46px;
+      color: map-get($colors, primary-bg);
+    }
+  }
+}
